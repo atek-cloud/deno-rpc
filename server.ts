@@ -1,5 +1,5 @@
 import { ServerRequest } from 'https://deno.land/std@0.99.0/http/server.ts';
-import { respond } from 'https://raw.githubusercontent.com/pfrazee/gentle_rpc/master/mod.ts';
+import { respond } from 'https://deno.land/x/gentle_rpc@v2.9/mod.ts';
 import { ApiSchema, getMethod, assertParamsValid, assertResponseValid, ParamValidationError, ResponseValidationError, GeneralError } from './types.ts'
 
 export type JsonRpcServerHandlers = {

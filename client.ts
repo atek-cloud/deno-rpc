@@ -1,5 +1,5 @@
-import { createRemote } from 'https://raw.githubusercontent.com/pfrazee/gentle_rpc/master/mod.ts'
-import { BadServerDataError } from 'https://raw.githubusercontent.com/pfrazee/gentle_rpc/master/client/error.ts'
+import { createRemote } from 'https://deno.land/x/gentle_rpc@v2.9/mod.ts'
+import { BadServerDataError } from 'https://deno.land/x/gentle_rpc@v2.9/client/error.ts'
 import { ApiSchema, getMethod, assertParamsValid, assertResponseValid, ParamValidationError, ResponseValidationError, GeneralError } from './types.ts'
 
 export class JsonRpcClient {
