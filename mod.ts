@@ -1,2 +1,3 @@
-export { JsonRpcServer, JsonRpcServerHandlers } from './server.ts'
+export type { JsonRpcServerHandlers } from './server.ts'
+export { JsonRpcServer } from './server.ts'
 export { JsonRpcClient } from './client.ts'
