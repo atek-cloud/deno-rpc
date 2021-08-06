@@ -1,5 +1,5 @@
 // import { SomeJSONSchema } from './vendor/ajv.d.ts'
-import { CustomError } from 'https://raw.githubusercontent.com/pfrazee/gentle_rpc/master/mod.ts';
+import { CustomError } from 'https://deno.land/x/gentle_rpc@v2.9/mod.ts';
 import Ajv from './vendor/avj.8.6.1.js'
 const ajv = new Ajv({strict: false})
 
